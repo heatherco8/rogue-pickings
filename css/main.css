@@ -1,0 +1,153 @@
+/******Base Styles******/
+
+@font-face {
+	font-family: Wisdom;
+	src: url('../fonts/wisdom-script-aj.otf') format('opentype');
+}
+
+body {
+	font-family: montserrat;
+	margin: 20px;
+	width: 100%;
+}
+
+/*******GRID STYLES****/
+
+.half-width {
+	box-sizing: border-box;
+	float: left;
+	width: 46%;
+}
+
+.full-width {
+	box-sizing: border-box;
+	clear: both;
+	width: 96%;
+}
+
+.third-width {
+	border: solid #dedbdc 1px;
+	box-sizing: border-box;
+	float: left;
+	height: 200px;
+	width: 33%;
+}
+
+
+/*******BASE STYLES****/
+
+h1 {
+	font-size: 30px;
+	line-height: 23px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #77a466;
+	font-size: 18px;
+	line-height: 23px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 12px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+span {
+	color: #77a466;
+}
+/*******HEADER*********/
+
+nav {
+	float: right;
+	text-transform: uppercase;
+}
+
+nav a {
+	color: #77a466;
+	font-size: 14px;
+	text-decoration: none;	
+}
+
+img {
+	border-top: solid #77a466 3px;
+	border-bottom: solid #77a466 3px;
+	margin: 15px 0px 10px;
+	width: 100%;
+}
+
+li a {
+	color: #77a466;
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+}
+
+.full-width p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+#top-menu li {
+	display: inline-block;
+	font-weight: bold;
+	padding: 0px 10px;
+}
+
+#welcome {
+	padding-bottom: 15px;
+}
+
+/****BOTTOM SECTION*****/
+
+.lists {
+	list-style: none;
+	line-height: 23px;
+}
+
+#specials {
+	border-left: none;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+#specials li {
+	padding: 5px 0px;
+}
+
+#reviews {
+	padding: 0px 25px 5px 25px;
+}
+
+#reviews p {
+	line-height: 21px;
+}
+
+#contact {
+	border-right: none;
+	padding: 0px 25px 5px 25px;
+}
+
+/******FOOTER******/
+
+.tagline {
+	clear: both;
+	padding-top: 30px;
+
+}
+
+.tagline span {
+	color: #77a466;
+	font-family: wisdom;
+	text-transform: none;
+}
